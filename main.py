@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 st.sidebar.title("Outskill Hub")
 st.sidebar.link_button("By Ratandeep Singh Bansal", "https://github.com/ratandeepbansal/")
-st.title("Assignment 1")
+st.title(":rainbow: Assignment 1")
 st.caption("Read the CSV file and do some operations via functions")
 
 # df = pd.read_csv("./ai_job_dataset.csv")
