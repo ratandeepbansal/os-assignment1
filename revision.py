@@ -70,6 +70,7 @@ def avg_exp(df, c):
         filtered = sub[sub['employment_type'] == t]
         experience = filtered['years_experience']
         return_dict[t] = round(experience.mean(),2)
+        print("hello")
     return return_dict
     
 with st.expander("Average experience per level (for country as input)"):
