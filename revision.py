@@ -70,7 +70,7 @@ def avg_exp(df, c):
         filtered = sub[sub['employment_type'] == t]
         experience = filtered['years_experience']
         return_dict[t] = {
-            experience.mean()
+            {experience.mean()}
         }
     return return_dict
     
