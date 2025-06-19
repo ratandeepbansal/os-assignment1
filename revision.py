@@ -69,9 +69,7 @@ def avg_exp(df, c):
     for t in etypes:
         filtered = sub[sub['employment_type'] == t]
         experience = filtered['years_experience']
-        return_dict[t] = {
-            experience.mean()
-        }
+        return_dict[t] = round(experience.mean(),2)
     return return_dict
     
 with st.expander("Average experience per level (for country as input)"):
